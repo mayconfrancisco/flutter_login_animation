@@ -4,7 +4,7 @@ class SignUpButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FlatButton(
-        padding: EdgeInsets.only(top: 160),
+        padding: EdgeInsets.only(top: 220),
         onPressed: () {
           print('clicou em cadastre-se');
         },
